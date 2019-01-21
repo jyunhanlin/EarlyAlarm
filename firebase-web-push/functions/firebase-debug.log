@@ -1,0 +1,123 @@
+[debug] [2018-05-09T09:06:02.285Z] ----------------------------------------------------------------------
+[debug] [2018-05-09T09:06:02.290Z] Command:       /Users/jhlin/.nvm/versions/node/v8.11.1/bin/node /Users/jhlin/.nvm/versions/node/v8.11.1/bin/firebase functions:shell
+[debug] [2018-05-09T09:06:02.291Z] CLI Version:   3.18.4
+[debug] [2018-05-09T09:06:02.291Z] Platform:      darwin
+[debug] [2018-05-09T09:06:02.291Z] Node Version:  v8.11.1
+[debug] [2018-05-09T09:06:02.292Z] Time:          Wed May 09 2018 17:06:02 GMT+0800 (CST)
+[debug] [2018-05-09T09:06:02.292Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-09T09:06:02.312Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-09T09:06:02.312Z] > authorizing via signed-in user
+[debug] [2018-05-09T09:06:02.315Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-09T09:06:02.316Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LxkSwuF17O2eb-kCe3XdPnwUAOyN4wubGsNu8fnP-bY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 09 2018 17:06:02 GMT+0800 (CST)
+[debug] [2018-05-09T09:06:02.710Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-09T09:06:02.733Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/earlyalarm-pwa  
+  
+ Wed May 09 2018 17:06:02 GMT+0800 (CST)
+[debug] [2018-05-09T09:06:03.795Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-09T09:06:03.796Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/earlyalarm-pwa/tokens  
+  
+ Wed May 09 2018 17:06:03 GMT+0800 (CST)
+[debug] [2018-05-09T09:06:04.552Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-09T09:06:05.475Z] Fetching environment
+[debug] [2018-05-09T09:06:05.479Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/earlyalarm-pwa  
+  
+ Wed May 09 2018 17:06:05 GMT+0800 (CST)
+[debug] [2018-05-09T09:06:06.649Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-09T09:06:06.650Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776867947627:getServerAppConfig  
+  
+ Wed May 09 2018 17:06:06 GMT+0800 (CST)
+[debug] [2018-05-09T09:06:07.467Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-09T09:06:07.467Z] Starting @google-cloud/functions-emulator
+[debug] [2018-05-09T09:06:09.012Z] Parsing function triggers
+[info] ✔  functions: sendExtensionPush
+[info] ✔  functions: sendPush
+[debug] [2018-05-16T10:06:43.671Z] ----------------------------------------------------------------------
+[debug] [2018-05-16T10:06:43.674Z] Command:       /Users/jhlin/.nvm/versions/node/v8.11.1/bin/node /Users/jhlin/.nvm/versions/node/v8.11.1/bin/firebase functions:shell
+[debug] [2018-05-16T10:06:43.674Z] CLI Version:   3.18.4
+[debug] [2018-05-16T10:06:43.674Z] Platform:      darwin
+[debug] [2018-05-16T10:06:43.674Z] Node Version:  v8.11.1
+[debug] [2018-05-16T10:06:43.675Z] Time:          Wed May 16 2018 18:06:43 GMT+0800 (CST)
+[debug] [2018-05-16T10:06:43.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-16T10:06:43.689Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-16T10:06:43.689Z] > authorizing via signed-in user
+[debug] [2018-05-16T10:06:43.691Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-16T10:06:43.692Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LxkSwuF17O2eb-kCe3XdPnwUAOyN4wubGsNu8fnP-bY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 16 2018 18:06:43 GMT+0800 (CST)
+[debug] [2018-05-16T10:06:43.885Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-16T10:06:43.899Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/earlyalarm-pwa  
+  
+ Wed May 16 2018 18:06:43 GMT+0800 (CST)
+[debug] [2018-05-16T10:06:44.726Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-16T10:06:44.726Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/earlyalarm-pwa/tokens  
+  
+ Wed May 16 2018 18:06:44 GMT+0800 (CST)
+[debug] [2018-05-16T10:06:45.714Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-16T10:06:46.648Z] Fetching environment
+[debug] [2018-05-16T10:06:46.651Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/earlyalarm-pwa  
+  
+ Wed May 16 2018 18:06:46 GMT+0800 (CST)
+[debug] [2018-05-16T10:06:47.660Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-16T10:06:47.660Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776867947627:getServerAppConfig  
+  
+ Wed May 16 2018 18:06:47 GMT+0800 (CST)
+[debug] [2018-05-16T10:06:48.794Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-16T10:06:48.795Z] Starting @google-cloud/functions-emulator
+[debug] [2018-05-16T10:06:50.330Z] Parsing function triggers
+[info] ✔  functions: sendPush
+[info] ✔  functions: sendExtensionPush
+[debug] [2018-05-17T06:34:35.228Z] ----------------------------------------------------------------------
+[debug] [2018-05-17T06:34:35.231Z] Command:       /Users/jhlin/.nvm/versions/node/v8.11.1/bin/node /Users/jhlin/.nvm/versions/node/v8.11.1/bin/firebase functions:shell
+[debug] [2018-05-17T06:34:35.231Z] CLI Version:   3.18.4
+[debug] [2018-05-17T06:34:35.231Z] Platform:      darwin
+[debug] [2018-05-17T06:34:35.231Z] Node Version:  v8.11.1
+[debug] [2018-05-17T06:34:35.231Z] Time:          Thu May 17 2018 14:34:35 GMT+0800 (CST)
+[debug] [2018-05-17T06:34:35.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-17T06:34:35.244Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-17T06:34:35.244Z] > authorizing via signed-in user
+[debug] [2018-05-17T06:34:35.246Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-17T06:34:35.246Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LxkSwuF17O2eb-kCe3XdPnwUAOyN4wubGsNu8fnP-bY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 17 2018 14:34:35 GMT+0800 (CST)
+[debug] [2018-05-17T06:34:35.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T06:34:35.460Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/earlyalarm-pwa  
+  
+ Thu May 17 2018 14:34:35 GMT+0800 (CST)
+[debug] [2018-05-17T06:34:36.468Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T06:34:36.469Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/earlyalarm-pwa/tokens  
+  
+ Thu May 17 2018 14:34:36 GMT+0800 (CST)
+[debug] [2018-05-17T06:34:37.126Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-17T06:34:37.981Z] Fetching environment
+[debug] [2018-05-17T06:34:37.984Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/earlyalarm-pwa  
+  
+ Thu May 17 2018 14:34:37 GMT+0800 (CST)
+[debug] [2018-05-17T06:34:39.015Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T06:34:39.015Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776867947627:getServerAppConfig  
+  
+ Thu May 17 2018 14:34:39 GMT+0800 (CST)
+[debug] [2018-05-17T06:34:39.731Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T06:34:39.731Z] Starting @google-cloud/functions-emulator
+[debug] [2018-05-17T06:34:41.787Z] Parsing function triggers
+[info] ✔  functions: sendPush
+[info] ✔  functions: sendExtensionPush
